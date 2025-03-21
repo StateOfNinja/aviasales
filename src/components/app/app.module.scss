@@ -1,0 +1,18 @@
+.aviasales-app {
+  margin: 0 auto;
+  max-width: 754px;
+  display: grid;
+  grid-template-columns: 232px 502px;
+  column-gap: 20px;
+  align-items: flex-start;
+}
+.container-tickets {
+  display: grid;
+  row-gap: 20px;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
