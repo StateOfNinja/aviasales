@@ -5,6 +5,9 @@
   grid-template-columns: 232px 502px;
   column-gap: 20px;
   align-items: flex-start;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 .container-tickets {
   display: grid;
